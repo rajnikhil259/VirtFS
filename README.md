@@ -29,7 +29,7 @@ The simulator provides an interactive command-line interface (CLI) to perform co
 - README.md  
 
 > **Note:**  
-> The `disc/` directory and `.bin` files are generated automatically at runtime and are **not committed** to the repository.
+> The `disc/` directory and `.bin` files are generated automatically at runtime.
 
 ---
 
@@ -94,7 +94,7 @@ Requires `g++` with C++11 support.
 
 ```bash
 g++ -std=c++11 -O2 main.cpp filesystem/*.cpp -I. -o fs_emulator
-
+```
 ## 🛠️ Tech Stack
 - Programming Language: C++ (C++11)
 - Core Concepts: Filesystem Design, Block Allocation, Metadata Management
