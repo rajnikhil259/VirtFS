@@ -1,0 +1,11 @@
+# Ignore Windows executables built in the project
+*.exe
+
+# Common build / editor folders
+build/
+bin/
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
